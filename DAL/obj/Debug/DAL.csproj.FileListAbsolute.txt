@@ -1,0 +1,6 @@
+C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\bin\Debug\DAL.dll
+C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\bin\Debug\DAL.pdb
+C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.dll
+C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.pdb
+C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

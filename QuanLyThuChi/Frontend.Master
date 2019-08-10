@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frontend.master.cs" Inherits="QuanLyThuChi.Frontend" %>
+
+<%@ Register Src="~/Layout/Navbar.ascx" TagPrefix="uc1" TagName="Navbar" %>
+<%@ Register Src="~/Layout/Sidebar.ascx" TagPrefix="uc1" TagName="Sidebar" %>
+<%@ Register Src="~/Layout/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Phần mềm quản lý thu chi</title>
+    <link rel="shortcut icon" type="image/x-icon" href="vendor/fav-icon.png" />
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+            <a class="navbar-brand mr-1" href="Default.aspx">Trang quản trị</a>
+
+            <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Navbar -->
+            <uc1:Navbar runat="server" id="Navbar" />
+        </nav>
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <uc1:Sidebar runat="server" id="Sidebar" />
+
+
+            <div id="content-wrapper">
+                <div class="container-fluid">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+            <!-- Sticky Footer -->
+            <uc1:Footer runat="server" id="Footer" />
+        </div>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+    </form>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+    <asp:ContentPlaceHolder ID="script" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
