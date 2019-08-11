@@ -34,6 +34,11 @@ namespace BLL
             return tong;
         }
 
+        public SqlDataReader GetListThoiGian()
+        {
+            return data.ExcuteQueryReader("select distinct Month(ngay) as 'thang' from KHOANCHI");
+        }
+
         public DateTime LastTime()
         {
             SqlDataReader rd = data.ExcuteQueryReader("select max(ngay) as 'lastTime' from KHOANCHI");
@@ -73,14 +78,14 @@ namespace BLL
             return data.ExcuteQueryReader(String.Format("select sum(sotien) as " +
                 "'tongtien',tenkhoanchi from KHOANCHI inner join LOAIKHOANCHI " +
                 "on KHOANCHI.loaikhoanchi = loaikhoanchi.ID " +
-                "where ngay >= '{0}-{1}-1' group by tenkhoanchi order by 'tongtien' desc", nam,thang));
+                "where ngay >= '{0}-{1}-1' and ngay < '{0}-{2}-1' group by tenkhoanchi order by 'tongtien' desc", nam,thang, thang+1));
         }
 
         public DataTable XemTungKhoanChi(int thang, int nam)
         {
             string sql = String.Format("select * from khoanchi inner join" +
                 " LOAIKHOANCHI on KHOANCHI.loaikhoanchi = loaikhoanchi.ID  " +
-                "where ngay >= '{0}-{1}-1' order by ngay desc", nam,thang);
+                "where ngay >= '{0}-{1}-1'  and ngay < '{0}-{2}-1' order by ngay desc", nam, thang, thang + 1);
             return data.ExcuteQuery(sql);
         }
 

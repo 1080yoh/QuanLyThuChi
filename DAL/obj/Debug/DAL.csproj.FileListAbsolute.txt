@@ -4,3 +4,8 @@ C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.csproj.CoreC
 C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.dll
 C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.pdb
 C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\Asp\QuanLyThuChi\DAL\bin\Debug\DAL.dll
+G:\Asp\QuanLyThuChi\DAL\bin\Debug\DAL.pdb
+G:\Asp\QuanLyThuChi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Asp\QuanLyThuChi\DAL\obj\Debug\DAL.dll
+G:\Asp\QuanLyThuChi\DAL\obj\Debug\DAL.pdb
