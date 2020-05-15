@@ -50,8 +50,7 @@
                         </div>
 
                         <asp:DropDownList ID="chonNgay" AutoPostBack="true" CssClass="form-control col-md-2 form-control-sm" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                            <asp:ListItem Value="homNay" Selected="True">Hôm nay</asp:ListItem>
-                            <asp:ListItem Value="thangNay">Tháng này</asp:ListItem>
+                            
                         </asp:DropDownList>
 
                     </div>

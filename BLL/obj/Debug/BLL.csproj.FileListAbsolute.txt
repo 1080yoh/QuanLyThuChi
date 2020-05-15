@@ -7,3 +7,12 @@ C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\BLL\obj\Debug\BLL.csproj.CoreC
 C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\BLL\obj\Debug\BLL.dll
 C:\Users\hoang999\Desktop\HocTap\asp\QuanLyThuChi\BLL\obj\Debug\BLL.pdb
+G:\Asp\QuanLyThuChi\BLL\bin\Debug\BLL.dll
+G:\Asp\QuanLyThuChi\BLL\bin\Debug\BLL.pdb
+G:\Asp\QuanLyThuChi\BLL\bin\Debug\DAL.dll
+G:\Asp\QuanLyThuChi\BLL\bin\Debug\DAL.pdb
+G:\Asp\QuanLyThuChi\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+G:\Asp\QuanLyThuChi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\Asp\QuanLyThuChi\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\Asp\QuanLyThuChi\BLL\obj\Debug\BLL.dll
+G:\Asp\QuanLyThuChi\BLL\obj\Debug\BLL.pdb
